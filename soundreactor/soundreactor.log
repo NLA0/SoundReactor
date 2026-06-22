@@ -1,0 +1,866 @@
+2026-06-16 18:49:31,892 [INFO] main: Starting SoundReactor...
+2026-06-16 18:49:31,892 [INFO] core.config: Config loaded from config.json
+2026-06-16 19:00:01,436 [INFO] main: Starting SoundReactor...
+2026-06-16 19:00:01,437 [INFO] core.config: Config loaded from config.json
+2026-06-16 23:20:51,757 [INFO] main: Starting SoundReactor...
+2026-06-16 23:20:51,757 [INFO] core.config: Config loaded from config.json
+2026-06-16 23:21:14,308 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-16 23:21:17,112 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-16 23:21:18,825 [INFO] core.fingerprint: Loaded 3 fingerprints from sounds_db
+2026-06-16 23:21:18,825 [INFO] core.detector: Database reloaded: 3 sound(s).
+2026-06-16 23:22:58,732 [INFO] core.detector: Loading fingerprint database…
+2026-06-16 23:22:58,751 [INFO] core.fingerprint: Loaded 3 fingerprints from sounds_db
+2026-06-16 23:22:58,751 [INFO] core.detector: Loaded 3 sound(s) in database.
+2026-06-16 23:22:58,901 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-16 23:22:58,902 [INFO] core.detector: Listening…
+2026-06-16 23:23:00,960 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=4.0s, similarity=0.96)
+2026-06-16 23:23:00,960 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:23:01,035 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:23:01,035 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:23:01,051 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:23:30,964 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=56.0s, similarity=0.96)
+2026-06-16 23:23:30,964 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:23:30,980 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:23:30,980 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:23:30,995 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:24:01,964 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.96)
+2026-06-16 23:24:01,964 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:24:01,979 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:24:01,980 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:24:01,995 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:24:32,962 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=62.0s, similarity=0.97)
+2026-06-16 23:24:32,962 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:24:32,978 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:24:32,978 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:24:32,994 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:25:02,966 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:25:02,967 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:25:02,982 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:25:02,982 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:25:02,998 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:25:33,964 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=62.0s, similarity=0.97)
+2026-06-16 23:25:33,964 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:25:33,980 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:25:33,980 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:25:33,996 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:26:03,965 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:26:03,966 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:26:03,981 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:26:03,981 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:26:03,997 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:26:34,965 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=56.0s, similarity=0.97)
+2026-06-16 23:26:34,966 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:26:34,981 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:26:34,982 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:26:34,997 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:27:04,969 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=56.0s, similarity=0.97)
+2026-06-16 23:27:04,969 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:27:04,984 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:27:04,985 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:27:05,000 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:27:35,969 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=62.0s, similarity=0.97)
+2026-06-16 23:27:35,969 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:27:35,985 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:27:35,985 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:27:36,001 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:28:06,968 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:28:06,968 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:28:06,984 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:28:06,984 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:28:06,999 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:28:36,970 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:28:36,970 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:28:36,985 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:28:36,986 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:28:37,002 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:29:07,971 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:29:07,971 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:29:07,987 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:29:07,987 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:29:08,003 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:29:37,973 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:29:37,973 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:29:37,989 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:29:37,989 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:29:38,005 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:30:08,970 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.96)
+2026-06-16 23:30:08,970 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:30:08,985 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:30:08,986 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:30:09,001 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:30:38,972 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=58.0s, similarity=0.97)
+2026-06-16 23:30:38,972 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:30:38,987 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:30:38,988 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:30:39,003 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:31:08,972 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=58.0s, similarity=0.97)
+2026-06-16 23:31:08,973 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:31:08,989 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:31:08,989 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:31:09,005 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:31:40,972 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=62.0s, similarity=0.96)
+2026-06-16 23:31:40,972 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:31:40,988 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:31:40,988 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:31:41,004 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:32:10,972 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=58.0s, similarity=0.97)
+2026-06-16 23:32:10,972 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:32:10,988 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:32:10,988 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:32:11,004 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:32:40,976 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:32:40,976 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:32:40,992 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:32:40,992 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:32:41,008 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:33:11,974 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=62.0s, similarity=0.97)
+2026-06-16 23:33:11,974 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:33:11,990 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:33:11,990 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:33:12,005 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:33:41,975 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:33:41,975 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:33:41,991 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:33:41,991 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:33:42,007 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:34:12,975 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=58.0s, similarity=0.97)
+2026-06-16 23:34:12,975 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:34:12,991 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:34:12,991 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:34:13,007 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:34:42,978 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:34:42,978 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:34:42,994 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:34:42,994 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:34:43,009 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:35:13,976 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:35:13,976 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:35:13,992 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:35:13,992 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:35:14,008 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:35:43,981 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=58.0s, similarity=0.96)
+2026-06-16 23:35:43,981 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:35:43,997 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:35:43,997 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:35:44,013 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:35:54,382 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-16 23:35:55,458 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-16 23:35:55,458 [INFO] core.detector: Database reloaded: 4 sound(s).
+2026-06-16 23:36:13,981 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.97)
+2026-06-16 23:36:13,982 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:36:13,997 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:36:13,998 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:36:14,014 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:36:43,983 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=56.0s, similarity=0.97)
+2026-06-16 23:36:43,983 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:36:43,999 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:36:43,999 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:36:44,015 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:37:13,986 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=58.0s, similarity=0.97)
+2026-06-16 23:37:13,986 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:37:14,003 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:37:14,003 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:37:14,020 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:37:18,036 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-16 23:37:18,036 [INFO] core.detector: Database reloaded: 4 sound(s).
+2026-06-16 23:37:44,984 [INFO] core.detector: Rule 'rule3' triggered! (accumulated=60.0s, similarity=0.96)
+2026-06-16 23:37:44,984 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:37:45,000 [ERROR] core.actions: get volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:37:45,000 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:37:45,016 [ERROR] core.actions: set volume failed: 'AudioDevice' object has no attribute 'Activate'
+2026-06-16 23:38:01,949 [INFO] core.detector: Stopped.
+2026-06-16 23:44:00,524 [INFO] main: Starting SoundReactor...
+2026-06-16 23:44:00,525 [INFO] core.config: Config loaded from config.json
+2026-06-16 23:44:05,420 [INFO] core.detector: Loading fingerprint database...
+2026-06-16 23:44:05,447 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-16 23:44:05,448 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-16 23:44:05,610 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-16 23:44:05,610 [INFO] core.detector: Listening...
+2026-06-16 23:44:10,964 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=6.0s, similarity=0.97)
+2026-06-16 23:44:10,965 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:44:10,998 [ERROR] core.actions: get volume failed: type object 'AudioUtilities' has no attribute 'CreateVolumeEndpointObject'
+2026-06-16 23:44:10,998 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:44:11,013 [ERROR] core.actions: set volume failed: type object 'AudioUtilities' has no attribute 'CreateVolumeEndpointObject'
+2026-06-16 23:44:16,423 [INFO] core.detector: Stopped.
+2026-06-16 23:53:23,643 [INFO] main: Starting SoundReactor...
+2026-06-16 23:53:23,644 [INFO] core.config: Config loaded from config.json
+2026-06-16 23:53:27,731 [INFO] core.detector: Loading fingerprint database...
+2026-06-16 23:53:27,734 [INFO] core.fingerprint: Building fingerprint for: Recording1.mp3
+2026-06-16 23:53:30,907 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-16 23:53:32,589 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-16 23:53:34,605 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-16 23:53:35,868 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-16 23:53:35,868 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-16 23:53:36,014 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-16 23:53:36,014 [INFO] core.detector: Listening...
+2026-06-16 23:53:39,084 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=6.0s, similarity=0.97)
+2026-06-16 23:53:39,084 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-16 23:53:39,117 [ERROR] core.actions: get volume failed: type object 'AudioUtilities' has no attribute 'CreateVolumeEndpointObject'
+2026-06-16 23:53:39,117 [INFO] core.actions: Setting volume to 0%
+2026-06-16 23:53:39,132 [ERROR] core.actions: set volume failed: type object 'AudioUtilities' has no attribute 'CreateVolumeEndpointObject'
+2026-06-16 23:53:50,039 [INFO] core.detector: Stopped.
+2026-06-16 23:58:54,163 [INFO] main: Starting SoundReactor...
+2026-06-16 23:58:54,164 [INFO] core.config: Config loaded from config.json
+2026-06-16 23:58:56,671 [INFO] core.detector: Loading fingerprint database...
+2026-06-16 23:58:56,695 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-16 23:58:56,695 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-16 23:58:56,843 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-16 23:58:56,843 [INFO] core.detector: Listening...
+2026-06-16 23:59:01,210 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=6.0s, similarity=0.96)
+2026-06-16 23:59:01,210 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-16 23:59:01,244 [INFO] core.actions: Setting volume to 50%
+2026-06-16 23:59:14,670 [INFO] core.detector: Stopped.
+2026-06-17 12:40:18,876 [INFO] main: Starting SoundReactor...
+2026-06-17 12:40:18,877 [INFO] core.config: Config loaded from config.json
+2026-06-17 12:40:24,950 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 12:40:24,975 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 12:40:24,975 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 12:40:25,148 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 12:40:25,149 [INFO] core.detector: Listening...
+2026-06-17 12:40:31,646 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=6.0s, similarity=0.97)
+2026-06-17 12:40:31,646 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:40:31,708 [INFO] core.actions: Setting volume to 50%
+2026-06-17 12:41:02,637 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=32.0s, similarity=0.97)
+2026-06-17 12:41:02,637 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:41:02,653 [INFO] core.actions: Setting volume to 11%
+2026-06-17 12:41:32,635 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=60.0s, similarity=0.96)
+2026-06-17 12:41:32,635 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-17 12:41:32,652 [INFO] core.actions: Setting volume to 5%
+2026-06-17 12:42:03,630 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=62.0s, similarity=0.97)
+2026-06-17 12:42:03,631 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:42:03,647 [INFO] core.actions: Setting volume to 5%
+2026-06-17 12:42:33,627 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=60.0s, similarity=0.97)
+2026-06-17 12:42:33,628 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:42:33,644 [INFO] core.actions: Setting volume to 30%
+2026-06-17 12:43:06,621 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=6.0s, similarity=0.97)
+2026-06-17 12:43:06,621 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:43:06,637 [INFO] core.actions: Setting volume to 0%
+2026-06-17 12:43:37,619 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=62.0s, similarity=0.97)
+2026-06-17 12:43:37,619 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:43:37,636 [INFO] core.actions: Setting volume to 0%
+2026-06-17 12:44:08,612 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=62.0s, similarity=0.96)
+2026-06-17 12:44:08,612 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-17 12:44:08,628 [INFO] core.actions: Setting volume to 2%
+2026-06-17 12:44:38,608 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=60.0s, similarity=0.97)
+2026-06-17 12:44:38,608 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:44:38,625 [INFO] core.actions: Setting volume to 6%
+2026-06-17 12:45:09,602 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=62.0s, similarity=0.97)
+2026-06-17 12:45:09,602 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:45:09,618 [INFO] core.actions: Setting volume to 0%
+2026-06-17 12:45:39,597 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=10.0s, similarity=0.97)
+2026-06-17 12:45:39,598 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:45:39,615 [INFO] core.actions: Setting volume to 0%
+2026-06-17 12:46:09,593 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=60.0s, similarity=0.97)
+2026-06-17 12:46:09,593 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:46:09,610 [INFO] core.actions: Setting volume to 0%
+2026-06-17 12:46:39,594 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=60.0s, similarity=0.96)
+2026-06-17 12:46:39,594 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-17 12:46:39,611 [INFO] core.actions: Setting volume to 0%
+2026-06-17 12:47:09,589 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=60.0s, similarity=0.97)
+2026-06-17 12:47:09,589 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 12:47:09,606 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:03:05,221 [INFO] core.detector: Stopped.
+2026-06-17 13:04:01,463 [INFO] main: Starting SoundReactor...
+2026-06-17 13:04:01,463 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:04:03,695 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:04:03,718 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:04:03,718 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:04:03,885 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:04:03,886 [INFO] core.detector: Listening...
+2026-06-17 13:04:09,318 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=8.0s, similarity=0.97)
+2026-06-17 13:04:09,318 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:04:09,354 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:04:16,276 [INFO] core.detector: Stopped.
+2026-06-17 13:07:11,567 [INFO] main: Starting SoundReactor...
+2026-06-17 13:07:11,568 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:09:39,773 [INFO] main: Starting SoundReactor...
+2026-06-17 13:09:39,774 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:12:07,717 [INFO] main: Starting SoundReactor...
+2026-06-17 13:12:07,718 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:13:24,359 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:13:24,377 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:13:24,377 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:13:24,550 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:13:24,550 [INFO] core.detector: Listening...
+2026-06-17 13:13:28,940 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=6.0s, similarity=0.97)
+2026-06-17 13:13:28,941 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:13:28,975 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:13:28,992 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:13:29,042 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:13:38,400 [INFO] core.detector: Stopped.
+2026-06-17 13:14:17,043 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:14:17,068 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:14:17,068 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:14:17,079 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:14:17,079 [INFO] core.detector: Listening...
+2026-06-17 13:14:18,144 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=20.0s, similarity=0.93)
+2026-06-17 13:14:18,144 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.93)
+2026-06-17 13:14:18,162 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:14:18,178 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.93)
+2026-06-17 13:14:18,214 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:14:48,147 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=12.0s, similarity=0.97)
+2026-06-17 13:14:48,147 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:14:48,165 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:14:48,181 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:14:48,218 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:15:21,147 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=10.0s, similarity=0.97)
+2026-06-17 13:15:21,147 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:15:21,164 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:15:21,180 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:15:21,217 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:15:52,141 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=14.0s, similarity=0.96)
+2026-06-17 13:15:52,142 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-17 13:15:52,158 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:15:52,175 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.96)
+2026-06-17 13:15:52,211 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:16:23,142 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=22.0s, similarity=0.97)
+2026-06-17 13:16:23,142 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:16:23,159 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:16:23,175 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:16:23,211 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:16:54,139 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=62.0s, similarity=0.97)
+2026-06-17 13:16:54,139 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:16:54,156 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:16:54,173 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:16:54,209 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:17:25,138 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=62.0s, similarity=0.97)
+2026-06-17 13:17:25,138 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:17:25,154 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:17:25,171 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:17:25,207 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:17:56,135 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=62.0s, similarity=0.97)
+2026-06-17 13:17:56,135 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:17:56,152 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:17:56,169 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.97)
+2026-06-17 13:17:56,205 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:18:04,591 [INFO] core.detector: Stopped.
+2026-06-17 13:23:59,981 [INFO] main: Starting SoundReactor...
+2026-06-17 13:23:59,981 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:24:04,188 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:24:04,191 [INFO] core.fingerprint: Building fingerprint for: Recording1.mp3
+2026-06-17 13:24:06,084 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-17 13:24:06,631 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-17 13:24:07,294 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-17 13:24:07,713 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:24:07,713 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:24:07,862 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:24:07,862 [INFO] core.detector: Listening...
+2026-06-17 13:24:27,882 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=1.00)
+2026-06-17 13:24:27,882 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:24:27,921 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:24:27,940 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:24:27,983 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:25:28,880 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=1.00)
+2026-06-17 13:25:28,880 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:25:28,899 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:25:28,917 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:25:28,957 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:25:59,881 [INFO] core.detector: Stopped.
+2026-06-17 13:26:01,327 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:26:01,332 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:26:01,332 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:26:01,342 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:26:01,343 [INFO] core.detector: Listening...
+2026-06-17 13:26:06,870 [INFO] core.detector: Stopped.
+2026-06-17 13:26:37,297 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:26:37,304 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:26:37,304 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:26:37,314 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:26:37,314 [INFO] core.detector: Listening...
+2026-06-17 13:26:41,339 [INFO] core.detector: Stopped.
+2026-06-17 13:26:44,480 [INFO] main: Starting SoundReactor...
+2026-06-17 13:26:44,480 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:26:50,796 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:26:50,800 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:26:50,800 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:26:50,965 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:26:50,965 [INFO] core.detector: Listening...
+2026-06-17 13:28:02,308 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=1.00)
+2026-06-17 13:28:02,308 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:28:02,347 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:28:02,365 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:28:02,408 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:28:12,313 [INFO] core.detector: Stopped.
+2026-06-17 13:28:52,753 [INFO] main: Starting SoundReactor...
+2026-06-17 13:28:52,753 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:28:59,475 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:28:59,479 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:28:59,479 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:28:59,628 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:28:59,628 [INFO] core.detector: Listening...
+2026-06-17 13:29:18,508 [INFO] core.detector: Stopped.
+2026-06-17 13:29:45,695 [INFO] main: Starting SoundReactor...
+2026-06-17 13:29:45,695 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:29:49,103 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:29:49,107 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:29:49,107 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:29:49,267 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:29:49,268 [INFO] core.detector: Listening...
+2026-06-17 13:30:00,715 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=1.00)
+2026-06-17 13:30:00,715 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:30:00,753 [INFO] core.actions: Setting volume to 50%
+2026-06-17 13:30:00,772 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-17 13:30:00,813 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:30:05,721 [INFO] core.detector: Stopped.
+2026-06-17 13:36:56,691 [INFO] main: Starting SoundReactor...
+2026-06-17 13:36:56,692 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:36:59,321 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:36:59,325 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:36:59,325 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:36:59,478 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:36:59,478 [INFO] core.detector: Listening...
+2026-06-17 13:37:11,938 [INFO] core.detector: Stopped.
+2026-06-17 13:37:33,065 [INFO] main: Starting SoundReactor...
+2026-06-17 13:37:33,066 [INFO] core.config: Config loaded from config.json
+2026-06-17 13:37:34,874 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 13:37:34,878 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 13:37:34,878 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 13:37:35,033 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 13:37:35,034 [INFO] core.detector: Listening...
+2026-06-17 13:38:10,535 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=10.0s, similarity=0.50)
+2026-06-17 13:38:10,536 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.50)
+2026-06-17 13:38:10,575 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:38:10,594 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.50)
+2026-06-17 13:38:10,637 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:40:10,531 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:40:10,531 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:40:10,550 [INFO] core.actions: Setting volume to 50%
+2026-06-17 13:40:10,568 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:40:10,609 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-17 13:41:08,527 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:41:08,528 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:41:08,544 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:41:08,561 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:41:08,602 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:41:55,527 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:41:55,528 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:41:55,544 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:41:55,560 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:41:55,595 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:43:43,525 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:43:43,525 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:43:43,543 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:43:43,561 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:43:43,601 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:44:54,523 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:44:54,523 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:44:54,540 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:44:54,556 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:44:54,592 [INFO] core.actions: Set 2 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:45:50,523 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:45:50,523 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:45:50,541 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:45:50,560 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:45:50,599 [INFO] core.actions: Set 2 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:46:24,521 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:46:24,521 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:46:24,540 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:46:24,558 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:46:24,597 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:47:28,519 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:47:28,519 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:47:28,537 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:47:28,556 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:47:28,595 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:47:36,519 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:47:36,520 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=0.42)
+2026-06-17 13:47:36,538 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:47:36,556 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=0.42)
+2026-06-17 13:47:36,596 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:49:37,515 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.83)
+2026-06-17 13:49:37,515 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.83)
+2026-06-17 13:49:37,532 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:49:37,548 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.83)
+2026-06-17 13:49:37,584 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:50:22,515 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:50:22,515 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:50:22,533 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:50:22,550 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:50:22,588 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:52:17,513 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:52:17,514 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:52:17,533 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:52:17,551 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:52:17,588 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:52:49,512 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:52:49,512 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:52:49,528 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:52:49,545 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:52:49,580 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:53:36,511 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=10.0s, similarity=0.42)
+2026-06-17 13:53:36,511 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:53:36,529 [INFO] core.actions: Setting volume to 0%
+2026-06-17 13:53:36,547 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=0.42)
+2026-06-17 13:53:36,587 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-17 13:53:59,517 [INFO] core.detector: Stopped.
+2026-06-17 14:31:44,344 [INFO] main: Starting SoundReactor...
+2026-06-17 14:31:44,345 [INFO] core.config: Config loaded from config.json
+2026-06-17 14:31:47,505 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 14:31:47,509 [INFO] core.fingerprint: Building fingerprint for: Recording1.mp3
+2026-06-17 14:31:49,534 [WARNING] core.fingerprint: Skipping Recording1.mp3: name 'sr' is not defined
+2026-06-17 14:31:49,536 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-17 14:31:50,193 [WARNING] core.fingerprint: Skipping Recording2.mp3: name 'sr' is not defined
+2026-06-17 14:31:50,195 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-17 14:31:50,962 [WARNING] core.fingerprint: Skipping Recording3.mp3: name 'sr' is not defined
+2026-06-17 14:31:50,965 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-17 14:31:51,451 [WARNING] core.fingerprint: Skipping Recording4.mp3: name 'sr' is not defined
+2026-06-17 14:31:51,458 [INFO] core.fingerprint: Loaded 0 fingerprints from sounds_db
+2026-06-17 14:31:51,458 [INFO] core.detector: Loaded 0 sound(s) in database.
+2026-06-17 14:31:51,610 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 14:31:51,610 [INFO] core.detector: Listening...
+2026-06-17 14:33:57,721 [INFO] core.detector: Stopped.
+2026-06-17 18:04:51,487 [INFO] main: Starting SoundReactor...
+2026-06-17 18:04:51,493 [INFO] core.config: Config loaded from config.json
+2026-06-17 18:04:55,089 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 18:04:55,101 [INFO] core.fingerprint: Building fingerprint for: Recording1.mp3
+2026-06-17 18:04:58,729 [WARNING] core.fingerprint: Skipping Recording1.mp3: name 'sr' is not defined
+2026-06-17 18:04:58,731 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-17 18:04:59,378 [WARNING] core.fingerprint: Skipping Recording2.mp3: name 'sr' is not defined
+2026-06-17 18:04:59,380 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-17 18:05:00,157 [WARNING] core.fingerprint: Skipping Recording3.mp3: name 'sr' is not defined
+2026-06-17 18:05:00,160 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-17 18:05:00,654 [WARNING] core.fingerprint: Skipping Recording4.mp3: name 'sr' is not defined
+2026-06-17 18:05:00,656 [INFO] core.fingerprint: Loaded 0 fingerprints from sounds_db
+2026-06-17 18:05:00,657 [INFO] core.detector: Loaded 0 sound(s) in database.
+2026-06-17 18:05:00,841 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 18:05:00,841 [INFO] core.detector: Listening...
+2026-06-17 18:08:23,371 [INFO] core.detector: Stopped.
+2026-06-17 18:08:24,814 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 18:08:24,814 [INFO] core.fingerprint: Building fingerprint for: Recording1.mp3
+2026-06-17 18:08:25,584 [WARNING] core.fingerprint: Skipping Recording1.mp3: name 'sr' is not defined
+2026-06-17 18:08:25,586 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-17 18:08:26,227 [WARNING] core.fingerprint: Skipping Recording2.mp3: name 'sr' is not defined
+2026-06-17 18:08:26,229 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-17 18:08:27,001 [WARNING] core.fingerprint: Skipping Recording3.mp3: name 'sr' is not defined
+2026-06-17 18:08:27,003 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-17 18:08:27,490 [WARNING] core.fingerprint: Skipping Recording4.mp3: name 'sr' is not defined
+2026-06-17 18:08:27,492 [INFO] core.fingerprint: Loaded 0 fingerprints from sounds_db
+2026-06-17 18:08:27,492 [INFO] core.detector: Loaded 0 sound(s) in database.
+2026-06-17 18:08:27,502 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 18:08:27,502 [INFO] core.detector: Listening...
+2026-06-17 18:08:44,528 [INFO] core.detector: Stopped.
+2026-06-17 18:08:47,449 [INFO] main: Starting SoundReactor...
+2026-06-17 18:08:47,449 [INFO] core.config: Config loaded from config.json
+2026-06-17 18:08:49,126 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 18:08:49,129 [INFO] core.fingerprint: Building fingerprint for: Recording1.mp3
+2026-06-17 18:08:51,074 [WARNING] core.fingerprint: Skipping Recording1.mp3: name 'sr' is not defined
+2026-06-17 18:08:51,076 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-17 18:08:51,725 [WARNING] core.fingerprint: Skipping Recording2.mp3: name 'sr' is not defined
+2026-06-17 18:08:51,727 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-17 18:08:52,491 [WARNING] core.fingerprint: Skipping Recording3.mp3: name 'sr' is not defined
+2026-06-17 18:08:52,494 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-17 18:08:52,980 [WARNING] core.fingerprint: Skipping Recording4.mp3: name 'sr' is not defined
+2026-06-17 18:08:52,982 [INFO] core.fingerprint: Loaded 0 fingerprints from sounds_db
+2026-06-17 18:08:52,982 [INFO] core.detector: Loaded 0 sound(s) in database.
+2026-06-17 18:08:53,126 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 18:08:53,127 [INFO] core.detector: Listening...
+2026-06-17 18:10:29,657 [INFO] core.detector: Stopped.
+2026-06-17 23:08:31,012 [INFO] main: Starting SoundReactor...
+2026-06-17 23:08:31,013 [INFO] core.config: Config loaded from config.json
+2026-06-17 23:08:33,990 [INFO] core.detector: Loading fingerprint database...
+2026-06-17 23:08:33,993 [INFO] core.fingerprint: Building fingerprint for: Recording1.mp3
+2026-06-17 23:08:36,052 [INFO] core.fingerprint: Building fingerprint for: Recording2.mp3
+2026-06-17 23:08:36,794 [INFO] core.fingerprint: Building fingerprint for: Recording3.mp3
+2026-06-17 23:08:37,656 [INFO] core.fingerprint: Building fingerprint for: Recording4.mp3
+2026-06-17 23:08:38,198 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-17 23:08:38,199 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-17 23:08:38,368 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-17 23:08:38,368 [INFO] core.detector: Listening...
+2026-06-18 13:35:29,440 [INFO] main: Starting SoundReactor...
+2026-06-18 13:35:29,441 [INFO] core.config: Config loaded from config.json
+2026-06-18 13:35:31,523 [INFO] core.detector: Loading fingerprint database...
+2026-06-18 13:35:31,536 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-18 13:35:31,537 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-18 13:35:31,700 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-18 13:35:31,700 [INFO] core.detector: Listening...
+2026-06-18 13:45:48,441 [INFO] main: Starting SoundReactor...
+2026-06-18 13:45:48,441 [INFO] core.config: Config loaded from config.json
+2026-06-18 13:45:50,707 [INFO] core.detector: Loading fingerprint database...
+2026-06-18 13:45:50,720 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-18 13:45:50,720 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-18 13:45:50,876 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-18 13:45:50,876 [INFO] core.detector: Listening...
+2026-06-18 13:46:54,181 [INFO] core.detector: Stopped.
+2026-06-18 13:48:59,342 [INFO] main: Starting SoundReactor...
+2026-06-18 13:48:59,343 [INFO] core.config: Config loaded from config.json
+2026-06-18 13:49:01,387 [INFO] core.detector: Loading fingerprint database...
+2026-06-18 13:49:01,396 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-18 13:49:01,396 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-18 13:49:01,556 [INFO] core.detector: Audio capture started (SR=22050, chunk=44100, hop=22050)
+2026-06-18 13:49:01,556 [INFO] core.detector: Listening...
+2026-06-18 13:50:10,463 [INFO] core.detector: Stopped.
+2026-06-18 13:52:36,419 [INFO] main: Starting SoundReactor...
+2026-06-18 13:52:36,420 [INFO] core.config: Config loaded from config.json
+2026-06-18 13:52:38,319 [INFO] core.detector: Loading fingerprint database...
+2026-06-18 13:52:38,328 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-18 13:52:38,328 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-18 13:52:38,485 [INFO] core.detector: Audio capture started (SR=22050, chunk=132300, hop=66150)
+2026-06-18 13:52:38,485 [INFO] core.detector: Listening...
+2026-06-18 13:53:28,510 [INFO] core.detector: Stopped.
+2026-06-18 13:54:26,965 [INFO] main: Starting SoundReactor...
+2026-06-18 13:54:26,965 [INFO] core.config: Config loaded from config.json
+2026-06-18 13:54:30,879 [INFO] core.detector: Loading fingerprint database...
+2026-06-18 13:54:30,887 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-18 13:54:30,887 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-18 13:54:31,052 [INFO] core.detector: Audio capture started (SR=22050, chunk=132300, hop=66150)
+2026-06-18 13:54:31,052 [INFO] core.detector: Listening...
+2026-06-18 13:55:07,665 [INFO] core.detector: Stopped.
+2026-06-18 13:56:23,764 [INFO] main: Starting SoundReactor...
+2026-06-18 13:56:23,764 [INFO] core.config: Config loaded from config.json
+2026-06-18 14:12:59,964 [INFO] main: Starting SoundReactor...
+2026-06-18 14:12:59,964 [INFO] core.config: Config loaded from config.json
+2026-06-18 14:13:01,781 [INFO] core.detector: Loading fingerprint database...
+2026-06-18 14:13:01,789 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-18 14:13:01,789 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-18 14:13:01,909 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-18 14:13:01,936 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s, hop=66150)
+2026-06-18 14:13:01,936 [INFO] core.detector: Listening...
+2026-06-18 14:13:41,058 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-18 14:13:41,062 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-18 14:13:41,161 [INFO] core.actions: Setting volume to 50%
+2026-06-18 14:13:41,179 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-18 14:13:41,219 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-18 14:14:11,060 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=18.0s, similarity=1.00)
+2026-06-18 14:14:11,060 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-18 14:14:11,080 [INFO] core.actions: Setting volume to 50%
+2026-06-18 14:14:11,099 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-18 14:14:11,139 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-18 14:14:44,058 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=24.0s, similarity=1.00)
+2026-06-18 14:14:44,059 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-18 14:14:44,077 [INFO] core.actions: Setting volume to 0%
+2026-06-18 14:14:44,095 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-18 14:14:44,135 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-18 14:21:14,068 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-18 14:21:14,068 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-18 14:21:14,087 [INFO] core.actions: Setting volume to 44%
+2026-06-18 14:21:14,105 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-18 14:21:14,146 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-18 14:21:32,069 [INFO] core.detector: Rule 'rule4' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-18 14:21:32,069 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-18 14:21:32,087 [INFO] core.actions: Setting volume to 0%
+2026-06-18 14:21:32,103 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-18 14:21:32,139 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-18 14:53:08,101 [INFO] core.detector: Stopped.
+2026-06-18 14:53:18,811 [INFO] main: Starting SoundReactor...
+2026-06-18 14:53:18,811 [INFO] core.config: Config loaded from config.json
+2026-06-18 14:53:22,181 [INFO] core.detector: Loading fingerprint database...
+2026-06-18 14:53:22,189 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-18 14:53:22,189 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-18 14:53:22,316 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-18 14:53:22,346 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s, hop=66150)
+2026-06-18 14:53:22,346 [INFO] core.detector: Listening...
+2026-06-18 15:00:45,634 [INFO] core.detector: Stopped.
+2026-06-19 13:17:36,141 [INFO] main: Starting SoundReactor...
+2026-06-19 13:17:36,144 [INFO] core.config: Config loaded from config.json
+2026-06-19 13:17:38,146 [INFO] core.detector: Loading fingerprint database...
+2026-06-19 13:17:38,159 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-19 13:17:38,159 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-19 13:17:38,302 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-19 13:17:38,332 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s, hop=66150)
+2026-06-19 13:17:38,332 [INFO] core.detector: Listening...
+2026-06-19 13:20:06,668 [INFO] core.detector: Stopped.
+2026-06-19 13:23:28,323 [INFO] main: Starting SoundReactor...
+2026-06-19 13:23:28,323 [INFO] core.config: Config loaded from config.json
+2026-06-19 13:26:04,480 [INFO] main: Starting SoundReactor...
+2026-06-19 13:26:04,480 [INFO] core.config: Config loaded from config.json
+2026-06-19 13:26:19,781 [INFO] main: Starting SoundReactor...
+2026-06-19 13:26:19,781 [INFO] core.config: Config loaded from config.json
+2026-06-19 13:26:20,340 [INFO] core.detector: Loading fingerprint database...
+2026-06-19 13:26:20,348 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-19 13:26:20,348 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-19 13:26:20,470 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-19 13:26:20,499 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-19 13:26:20,499 [INFO] core.detector: Listening...
+2026-06-19 13:34:41,544 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-19 13:34:41,544 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-19 13:34:41,597 [INFO] core.actions: Setting volume to 50%
+2026-06-19 13:34:41,614 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-19 13:34:41,652 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-19 13:36:11,542 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-19 13:36:11,543 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-19 13:36:11,559 [INFO] core.actions: Setting volume to 0%
+2026-06-19 13:36:11,576 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-19 13:36:11,613 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-19 13:46:17,558 [INFO] core.detector: Rule 'rule4' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-19 13:46:17,559 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-19 13:46:17,577 [INFO] core.actions: Setting volume to 50%
+2026-06-19 13:46:17,594 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-19 13:46:17,636 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-19 14:53:42,504 [INFO] core.detector: Stopped.
+2026-06-19 14:53:43,069 [INFO] core.detector: Loading fingerprint database...
+2026-06-19 14:53:43,077 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-19 14:53:43,077 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-19 14:53:43,077 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-19 14:53:43,090 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-19 14:53:43,091 [INFO] core.detector: Listening...
+2026-06-19 14:56:25,127 [INFO] core.detector: Rule 'rule2' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-19 14:56:25,127 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-19 14:56:25,144 [INFO] core.actions: Setting volume to 0%
+2026-06-19 14:56:25,161 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-19 14:56:25,201 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-19 19:05:43,050 [INFO] core.detector: Stopped.
+2026-06-20 15:51:15,737 [INFO] main: Starting SoundReactor...
+2026-06-20 15:51:15,739 [INFO] core.config: Config loaded from config.json
+2026-06-20 15:51:16,401 [INFO] core.detector: Loading fingerprint database...
+2026-06-20 15:51:16,414 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-20 15:51:16,414 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-20 15:51:16,549 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-20 15:51:16,584 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-20 15:51:16,584 [INFO] core.detector: Listening...
+2026-06-20 15:58:46,712 [INFO] core.detector: Rule 'rule2' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-20 15:58:46,712 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-20 15:58:46,801 [INFO] core.actions: Setting volume to 50%
+2026-06-20 15:58:46,819 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-20 15:58:46,861 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-20 15:59:07,711 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-20 15:59:07,712 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-20 15:59:07,730 [INFO] core.actions: Setting volume to 0%
+2026-06-20 15:59:07,748 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-20 15:59:07,789 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-20 16:26:19,800 [INFO] core.detector: Rule 'rule4' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-20 16:26:19,800 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-20 16:26:19,819 [INFO] core.actions: Setting volume to 0%
+2026-06-20 16:26:19,837 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-20 16:26:19,878 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-20 16:28:55,800 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-20 16:28:55,800 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-20 16:28:55,819 [INFO] core.actions: Setting volume to 0%
+2026-06-20 16:28:55,837 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-20 16:28:55,878 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-21 10:44:24,165 [INFO] main: Starting SoundReactor...
+2026-06-21 10:44:24,170 [INFO] core.config: Config loaded from config.json
+2026-06-21 10:44:24,718 [INFO] core.detector: Loading fingerprint database...
+2026-06-21 10:44:24,730 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-21 10:44:24,730 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-21 10:44:24,859 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-21 10:44:24,889 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-21 10:44:24,889 [INFO] core.detector: Listening...
+2026-06-21 15:57:06,268 [INFO] main: Starting SoundReactor...
+2026-06-21 15:57:06,269 [INFO] core.config: Config loaded from config.json
+2026-06-21 15:57:06,818 [INFO] core.detector: Loading fingerprint database...
+2026-06-21 15:57:06,826 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-21 15:57:06,826 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-21 15:57:06,956 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-21 15:57:06,987 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-21 15:57:06,987 [INFO] core.detector: Listening...
+2026-06-21 15:57:16,022 [INFO] core.detector: Rule 'rule2' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-21 15:57:16,022 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-21 15:57:16,086 [INFO] core.actions: Setting volume to 50%
+2026-06-21 15:57:16,102 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-21 15:57:16,141 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-21 15:59:28,026 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-21 15:59:28,026 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-21 15:59:28,044 [INFO] core.actions: Setting volume to 0%
+2026-06-21 15:59:28,062 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-21 15:59:28,100 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-21 16:37:07,105 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-21 16:37:07,105 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-21 16:37:07,124 [INFO] core.actions: Setting volume to 0%
+2026-06-21 16:37:07,142 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-21 16:37:07,183 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-21 16:39:19,108 [INFO] core.detector: Rule 'rule4' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-21 16:39:19,108 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-21 16:39:19,126 [INFO] core.actions: Setting volume to 0%
+2026-06-21 16:39:19,144 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording4', similarity=1.00)
+2026-06-21 16:39:19,185 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-21 16:45:57,858 [INFO] core.detector: Stopped.
+2026-06-22 13:15:28,548 [INFO] main: Starting SoundReactor...
+2026-06-22 13:15:28,549 [INFO] core.config: Config loaded from config.json
+2026-06-22 13:15:29,152 [INFO] core.detector: Loading fingerprint database...
+2026-06-22 13:15:29,166 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-22 13:15:29,166 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-22 13:15:29,311 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-22 13:15:29,342 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-22 13:15:29,342 [INFO] core.detector: Listening...
+2026-06-22 13:15:44,618 [INFO] core.detector: Stopped.
+2026-06-22 13:16:04,323 [INFO] core.detector: Loading fingerprint database...
+2026-06-22 13:16:04,331 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-22 13:16:04,331 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-22 13:16:04,331 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-22 13:16:04,344 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-22 13:16:04,344 [INFO] core.detector: Listening...
+2026-06-22 13:50:52,309 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-22 13:50:52,309 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 13:50:52,362 [INFO] core.actions: Setting volume to 50%
+2026-06-22 13:50:52,378 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 13:50:52,417 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-22 13:54:25,307 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-22 13:54:25,307 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 13:54:25,326 [INFO] core.actions: Setting volume to 0%
+2026-06-22 13:54:25,344 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 13:54:25,385 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-22 14:01:36,544 [INFO] core.detector: Stopped.
+2026-06-22 14:03:28,503 [INFO] main: Starting SoundReactor...
+2026-06-22 14:03:28,503 [INFO] core.config: Config loaded from config.json
+2026-06-22 14:03:29,056 [INFO] core.detector: Loading fingerprint database...
+2026-06-22 14:03:29,064 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-22 14:03:29,064 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-22 14:03:29,194 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-22 14:03:29,223 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-22 14:03:29,223 [INFO] core.detector: Listening...
+2026-06-22 14:39:44,261 [INFO] core.detector: Rule 'rule3' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-22 14:39:44,262 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-22 14:39:44,302 [INFO] core.actions: Setting volume to 0%
+2026-06-22 14:39:44,320 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording3', similarity=1.00)
+2026-06-22 14:39:44,358 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-22 14:40:11,262 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-22 14:40:11,263 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 14:40:11,281 [INFO] core.actions: Setting volume to 0%
+2026-06-22 14:40:11,299 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 14:40:11,339 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-22 14:49:11,266 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00)
+2026-06-22 14:49:11,266 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 14:49:11,284 [INFO] core.actions: Setting volume to 0%
+2026-06-22 14:49:11,300 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 14:49:11,338 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-22 14:53:56,511 [INFO] core.detector: Stopped.
+2026-06-22 14:54:03,903 [INFO] main: Starting SoundReactor...
+2026-06-22 14:54:03,903 [INFO] core.config: Config loaded from config.json
+2026-06-22 14:54:04,456 [INFO] core.detector: Loading fingerprint database...
+2026-06-22 14:54:04,464 [INFO] core.fingerprint: Loaded 4 fingerprints from sounds_db
+2026-06-22 14:54:04,464 [INFO] core.detector: Loaded 4 sound(s) in database.
+2026-06-22 14:54:04,599 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-22 14:54:04,626 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-22 14:54:04,626 [INFO] core.detector: Listening...
+2026-06-22 14:56:10,663 [INFO] core.detector: Rule 'rule1' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-22 14:56:10,664 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 14:56:10,703 [INFO] core.actions: Setting volume to 0%
+2026-06-22 14:56:10,720 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording1', similarity=1.00)
+2026-06-22 14:56:10,761 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 22%
+2026-06-22 14:58:04,663 [INFO] core.detector: Rule 'rule2' triggered! (consecutive=12.0s, similarity=1.00, ONCE)
+2026-06-22 14:58:04,663 [INFO] core.actions: Executing action 'volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-22 14:58:04,680 [INFO] core.actions: Setting volume to 0%
+2026-06-22 14:58:04,696 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording2', similarity=1.00)
+2026-06-22 14:58:04,733 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 0%
+2026-06-22 14:58:14,407 [INFO] core.detector: Stopped.
+2026-06-22 14:58:23,439 [INFO] main: Starting SoundReactor...
+2026-06-22 14:58:23,439 [INFO] core.config: Config loaded from config.json
+2026-06-22 14:58:23,991 [INFO] core.detector: Loading fingerprint database...
+2026-06-22 14:58:23,994 [INFO] core.fingerprint: Building fingerprint for: Recording5.mp3
+2026-06-22 14:58:25,356 [INFO] core.fingerprint: Loaded 5 fingerprints from sounds_db
+2026-06-22 14:58:25,356 [INFO] core.detector: Loaded 5 sound(s) in database.
+2026-06-22 14:58:25,476 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-22 14:58:25,502 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-22 14:58:25,503 [INFO] core.detector: Listening...
+2026-06-22 15:09:54,791 [INFO] core.detector: Stopped.
+2026-06-22 15:10:13,372 [INFO] core.detector: Loading fingerprint database...
+2026-06-22 15:10:13,373 [INFO] core.fingerprint: Building fingerprint for: Recording0.mp3
+2026-06-22 15:10:16,335 [INFO] core.fingerprint: Building fingerprint for: Recording6.mp3
+2026-06-22 15:10:16,393 [INFO] core.fingerprint: Loaded 7 fingerprints from sounds_db
+2026-06-22 15:10:16,393 [INFO] core.detector: Loaded 7 sound(s) in database.
+2026-06-22 15:10:16,393 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-22 15:10:16,404 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-22 15:10:16,404 [INFO] core.detector: Listening...
+2026-06-22 15:20:28,197 [INFO] core.fingerprint: Loaded 7 fingerprints from sounds_db
+2026-06-22 15:20:28,197 [INFO] core.detector: Database reloaded: 7 sound(s).
+2026-06-22 15:20:51,439 [INFO] core.detector: Stopped.
+2026-06-22 15:20:52,298 [INFO] core.detector: Loading fingerprint database...
+2026-06-22 15:20:52,306 [INFO] core.fingerprint: Loaded 1 fingerprints from sounds_db
+2026-06-22 15:20:52,306 [INFO] core.detector: Loaded 1 sound(s) in database.
+2026-06-22 15:20:52,306 [INFO] core.detector: Device native SR: 44100, target SR: 22050
+2026-06-22 15:20:52,317 [INFO] core.detector: Audio capture started (device SR=44100, target SR=22050, chunk=6.0s)
+2026-06-22 15:20:52,317 [INFO] core.detector: Listening...
+2026-06-22 15:35:01,350 [INFO] core.detector: Rule 'recording0' triggered! (consecutive=6.0s, similarity=1.00, ONCE)
+2026-06-22 15:35:01,351 [INFO] core.actions: Executing action 'app_volume_down' (triggered by 'Recording0', similarity=1.00)
+2026-06-22 15:35:01,411 [INFO] core.actions: Set 1 session(s) for 'chrome.exe' to 50%
+2026-06-22 16:08:48,148 [INFO] core.detector: Stopped.

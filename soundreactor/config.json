@@ -1,0 +1,38 @@
+{
+  "audio": {
+    "sample_rate": 22050,
+    "chunk_duration": 6.0,
+    "overlap": 0.5,
+    "input_device": 2,
+    "channels": 1
+  },
+  "fingerprinting": {
+    "match_threshold": 0.2,
+    "min_match_seconds": 9.0,
+    "cooldown_seconds": 86400.0,
+    "algorithm": "landmark"
+  },
+  "sounds_db_path": "sounds_db",
+  "rules": [
+    {
+      "name": "recording0",
+      "sound_id": "Recording0",
+      "enabled": true,
+      "trigger_once": true,
+      "min_match_seconds": 5.0,
+      "cooldown_seconds": 86400.0,
+      "actions": [
+        {
+          "type": "app_volume_down",
+          "process": "chrome.exe",
+          "amount": 50
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "theme": "dark",
+    "log_lines": 200,
+    "auto_start": true
+  }
+}
